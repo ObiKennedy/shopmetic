@@ -1,0 +1,22 @@
+.footer{
+    background: #1A1A1A;
+    display: flex;
+    padding: 20px 50px;
+    gap: 70px;
+    margin-top: 70vh;
+    >div{
+        display: flex;
+        gap: 20px;
+        >span{
+            font-family: 'monsterrat alternate';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19.5px;
+            color: #FFFFFF;
+            margin: auto;
+        }
+        >div{
+            margin: auto;
+        }
+    }
+}
