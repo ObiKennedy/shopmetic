@@ -1,0 +1,132 @@
+.home{
+    width: 100%;
+    //height: 100vh;
+    padding: 20px 0;
+    >div:first-child{
+        display: flex;
+        padding: 12px 20px;
+        gap: 20px;
+        width: 90%;
+        margin: 0 50px;
+        >div:first-child{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            gap: 20px;
+            width: 15%;
+            padding: 20px;
+            background: #FFFFFF;
+            height: 345px;
+            border-radius: 10px;
+            >h2{
+                font-family: "monsterrat";
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24.5px;
+            }
+            >a{
+                display: flex;
+                gap: 5px;
+                text-decoration: none;
+                font-family: "monsterrat";
+                font-size: 16px;
+                font-weight: 500;
+                >span{
+                    color: #000;
+                }
+            }
+        }
+        >div:last-child{
+            width: 80%;
+            background: #FFFFFF;
+            border-radius: 10px;
+            display: flex;
+            padding: 2px;
+        }
+    }
+    >div:nth-child(2){
+        width: 87%;
+        background: #FFFFFF;
+        margin: auto;
+        padding: 12px 20px;
+        border-radius: 10px;
+        >div:first-child{
+            display: flex;
+            justify-content: space-between;
+            >p:first-child{
+                font-family: 'monsterrat';
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24.38px;
+            }
+            >p:last-child{
+                font-family: 'monsterrat';
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 15.85px;
+                color: #5542F6;
+            }
+            >p:last-child::after{
+                content: '→';
+                width: 15px;
+                height: 15px;
+            }
+        }
+        >div:last-child{
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 15px;
+                .pink{
+                    background: #FFCECF;
+                }
+                .orange{
+                    background: #FFA979;
+                }
+                .yellow{
+                    background: #FBE385;
+                }
+                .beige{
+                    background: #DFC8F2;
+                }
+            >a{
+                text-decoration: none;
+                width: 23%;
+                //background: #EDEDED;
+                height: 212px;
+                //padding: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                border-radius: 10px;
+                text-align: left;
+                >div{
+                    width: 100%;
+                    height: 167px;
+                    margin: auto;
+                    background: url('../../Asset/LOGO.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                >p{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    font-family: 'monsterrat';
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 14.63px;
+                    color: #030303;
+                    //background: #5542F6;
+                    //width: 100%;
+                    padding: 10px;
+                    height: 30px;
+                    margin-bottom: 0;
+                    border-radius: 2px;
+                }
+                >P::after{
+                    content: '→';  
+                }
+            }
+        }
+    }
+}
