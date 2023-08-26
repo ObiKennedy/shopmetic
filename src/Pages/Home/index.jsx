@@ -135,7 +135,7 @@ export default function Home() {
                         <div>
                             <img src="*" alt="banner"/>
                         </div>
-                        <p>Make Up</p>
+                        <p>Make  Up</p>
                     </Link>
                 </div>
             </div>
