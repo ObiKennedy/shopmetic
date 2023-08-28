@@ -1,0 +1,66 @@
+.item{
+    width: 281px;
+    height: 364px;
+    border-radius: 10px;
+    background: #EDEDED;
+    >div:first-child{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 281px;
+        height: 200px;
+        >div{
+            padding: 5px;
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+        }
+        .unlike{
+            display: none;
+        }
+        .like{
+            display: block;
+        }
+        >img{
+            width: 100%;
+        }
+    }
+    >div:nth-child(2){
+        width: 254px;
+        height: 96px;
+        //display: flex;
+        //flex-direction: column;
+        //gap: 5px;
+        padding: 10px;
+        >p:first-child{
+            font-family: 'monsterrat';
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 17.07px;
+            text-align: left;
+        }
+        >div{
+            display: flex;
+            justify-content: space-between;
+            >p{
+                font-family: 'monsterrat';
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 14.43px;
+            }
+            .inStock{
+                color: #03AC13;
+            }
+            .outOfStock{
+                color: #DF0000;
+            }
+        }
+        >p:last-child{
+            font-family: 'monsterrat';
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: left;
+        }
+    }
+}

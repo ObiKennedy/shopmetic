@@ -2,6 +2,7 @@ import React from "react";
 import './index.scss'
 import { Link } from "react-router-dom";
 import '../../Asset/LOGO.png'
+import Items from "../../Components/Item";
 
 export default function Home() {
     return(
@@ -135,8 +136,23 @@ export default function Home() {
                         <div>
                             <img src="*" alt="banner"/>
                         </div>
-                        <p>Make  Up</p>
+                        <p>Make Up</p>
                     </Link>
+                </div>
+            </div>
+            <div>
+                <h2>Top Selling Items</h2>
+                <div>
+                    <Items Description={'Calvin Klein Eternity Men Perfume 100ml EDT (EDP) (Long Lasting)'} Price={'₦ 14,990'} status={'In'}/>
+                    <Items Description={'Quick Dry Big Eye Cool Black Liquid Eyeliner Waterproof'} Price={'₦ 2,990'} status="Out of"/>
+                    <Items Description={'Bleu de Chanel Men Perfume 100ml EDT (EDP) (Long Lasting)'} Price={'₦ 21,990'} status="In"/>
+                    <Items Description="Norland Herbal Toothpaste - Mint (Treatment Of Mouth Odour)" Price="₦ 3,990" status="Out of"/>
+                </div>
+            </div>
+            <div>
+                <h2>Inspired by your browsing history</h2>
+                <div>
+                    
                 </div>
             </div>
         </div>
